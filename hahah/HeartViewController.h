@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HeartViewController : UIViewController
+@property (nonatomic) NSInteger state;
 
 @end

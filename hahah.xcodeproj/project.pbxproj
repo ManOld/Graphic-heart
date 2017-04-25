@@ -13,6 +13,10 @@
 		844B101B1EAED2DB007C5B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B10191EAED2DB007C5B64 /* Main.storyboard */; };
 		844B101D1EAED2DB007C5B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844B101C1EAED2DB007C5B64 /* Assets.xcassets */; };
 		844B10201EAED2DB007C5B64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B101E1EAED2DB007C5B64 /* LaunchScreen.storyboard */; };
+		844B10291EAEDE90007C5B64 /* HeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B10281EAEDE90007C5B64 /* HeartViewController.m */; };
+		844B102C1EAEE84D007C5B64 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B102B1EAEE84D007C5B64 /* DMHeartFlyView.m */; };
+		844B102F1EAEEB61007C5B64 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B102E1EAEEB61007C5B64 /* CustomView.m */; };
+		844B10311EAEF6D8007C5B64 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 844B10301EAEF6D8007C5B64 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		844B101C1EAED2DB007C5B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844B101F1EAED2DB007C5B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844B10211EAED2DB007C5B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844B10271EAEDE90007C5B64 /* HeartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartViewController.h; sourceTree = "<group>"; };
+		844B10281EAEDE90007C5B64 /* HeartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartViewController.m; sourceTree = "<group>"; };
+		844B102A1EAEE84D007C5B64 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		844B102B1EAEE84D007C5B64 /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		844B102D1EAEEB61007C5B64 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		844B102E1EAEEB61007C5B64 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		844B10301EAEF6D8007C5B64 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,13 @@
 				844B10141EAED2DB007C5B64 /* AppDelegate.m */,
 				844B10161EAED2DB007C5B64 /* ViewController.h */,
 				844B10171EAED2DB007C5B64 /* ViewController.m */,
+				844B10271EAEDE90007C5B64 /* HeartViewController.h */,
+				844B10281EAEDE90007C5B64 /* HeartViewController.m */,
+				844B102A1EAEE84D007C5B64 /* DMHeartFlyView.h */,
+				844B102B1EAEE84D007C5B64 /* DMHeartFlyView.m */,
+				844B102D1EAEEB61007C5B64 /* CustomView.h */,
+				844B102E1EAEEB61007C5B64 /* CustomView.m */,
+				844B10301EAEF6D8007C5B64 /* 1.png */,
 				844B10191EAED2DB007C5B64 /* Main.storyboard */,
 				844B101C1EAED2DB007C5B64 /* Assets.xcassets */,
 				844B101E1EAED2DB007C5B64 /* LaunchScreen.storyboard */,
@@ -138,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844B10201EAED2DB007C5B64 /* LaunchScreen.storyboard in Resources */,
+				844B10311EAEF6D8007C5B64 /* 1.png in Resources */,
 				844B101D1EAED2DB007C5B64 /* Assets.xcassets in Resources */,
 				844B101B1EAED2DB007C5B64 /* Main.storyboard in Resources */,
 			);
@@ -153,6 +172,9 @@
 				844B10181EAED2DB007C5B64 /* ViewController.m in Sources */,
 				844B10151EAED2DB007C5B64 /* AppDelegate.m in Sources */,
 				844B10121EAED2DB007C5B64 /* main.m in Sources */,
+				844B10291EAEDE90007C5B64 /* HeartViewController.m in Sources */,
+				844B102C1EAEE84D007C5B64 /* DMHeartFlyView.m in Sources */,
+				844B102F1EAEEB61007C5B64 /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +331,7 @@
 				844B10261EAED2DB007C5B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
